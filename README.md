@@ -1,23 +1,11 @@
-![](https://github.com/chabb/material-react/workflows/jest_tests/badge.svg)
-![publish-npm](https://github.com/materialsproject/mp-react-components/workflows/publish-npm/badge.svg)
-[![codecov](https://codecov.io/gh/materialsproject/mp-react-components/branch/main/graph/badge.svg)](https://codecov.io/gh/materialsproject/mp-react-components)
-![](https://img.shields.io/npm/v/mat-periodic-table?style=plastic)
-![Test New React components](https://github.com/materialsproject/dash-mp-components/workflows/Test%20New%20React%20components/badge.svg)
-[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](https://materialsproject.github.io/mp-react-components/)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-
-This repo contains a set of components for displaying and interacting with material science data. These components provide the building blocks for the interactive components of the Materials Project website.
-
-## Docs and Examples
-
-Check out the [mp-react-components storybook](https://materialsproject.github.io/mp-react-components/) to see examples and documentation for each component in this library.
+This repo contains a set of components for displaying and interacting with BFD pseudopotentials basis set data. These components provide are derived from the interactive components of the Materials Project website.
 
 ## Getting Started with Local Development
 
 Clone the mp-react-components repo:
 
 ```
-git clone git@github.com:materialsproject/mp-react-components.git
+git clone git@github.com:neelravi/BFD-basis-pseudo.git
 ```
 
 From inside the top directory, install the dependencies:
@@ -26,7 +14,7 @@ From inside the top directory, install the dependencies:
 npm install
 ```
 
-Deploy the app to https://localhost:3000:
+Deploy the app to https://localhost:1234:
 
 ```
 npm start
@@ -191,8 +179,6 @@ Stories are defined in `./src/stories`
 ```
 npm deploy-storybook
 ```
-
-If successful, the changes will be live at https://materialsproject.github.io/mp-react-components/
 
 ### Build Tools
 
