@@ -1,1 +1,0 @@
-export { MPContribsSearch } from './MPContribsSearch';

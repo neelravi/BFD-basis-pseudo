@@ -27,8 +27,8 @@ export const PeriodicTableSpacer: React.FC<Props> = (props) => {
       {/* <div className="first-span">
         {showSwitcher && <div className="table-switcher" onClick={onTableSwitcherClicked}></div>}
         <div className="input-container"></div>
-      </div>
-      <div className="second-span">
+      </div> */}
+      {/* <div className="second-span">
         {!disabled && (selectorWidget)}
       </div> */}
       {pluginComponent}

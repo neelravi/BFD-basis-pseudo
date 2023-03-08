@@ -96,36 +96,6 @@
     "expanded": false,
     "filters": [
       {
-        "name": "Electron Affinity",
-        "params": ["EA_min", "EA_max"],
-        "units": "eV",
-        "type": "SLIDER",
-        "props": {
-          "domain": [-6098, 4858],
-          "step": 0.1
-        }
-      },
-      {
-        "name": "Ionization Energy",
-        "params": ["IE_min", "IE_max"],
-        "units": "eV",
-        "type": "SLIDER",
-        "props": {
-          "domain": [-8000, 6886],
-          "step": 0.1
-        }
-      },
-      {
-        "name": "Charge",
-        "params": ["charge_min", "charge_max"],
-        "units": "+e",
-        "type": "SLIDER",
-        "props": {
-          "domain": [-1, 1],
-          "step": 1
-        }
-      },
-      {
         "name": "Point Group",
         "params": ["pointgroup"],
         "tooltip": "Point group of the molecule in Schoenflies notation",

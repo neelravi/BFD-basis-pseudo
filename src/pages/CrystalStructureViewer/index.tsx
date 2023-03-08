@@ -1,1 +1,0 @@
-export { CrystalStructureViewer } from './CrystalStructureViewer';

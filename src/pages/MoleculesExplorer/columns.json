@@ -22,26 +22,6 @@
     "formatType": "POINTGROUP"
   },
   {
-    "title": "Electron Affinity",
-    "selector": "EA",
-    "formatType": "FIXED_DECIMAL",
-    "formatOptions": {
-      "decimals": 2
-    },
-    "units": "eV",
-    "right": true
-  },
-  {
-    "title": "Ionization Energy",
-    "selector": "IE",
-    "formatType": "FIXED_DECIMAL",
-    "formatOptions": {
-      "decimals": 2
-    },
-    "units": "eV",
-    "right": true
-  },
-  {
     "title": "Charge",
     "selector": "charge",
     "units": "+e",

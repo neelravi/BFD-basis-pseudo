@@ -4,6 +4,7 @@ import columns from './columns.json';
 import { Column, FilterGroup } from '../../components/data-display/SearchUI/types';
 import { PeriodicTableMode } from '../../components/data-entry/MaterialsInput/MaterialsInput';
 import { SearchUIContainer, SearchUIGrid, SearchUISearchBar } from '../..';
+import periodicTableImage from './assets/images/periodictable.png';
 
 /**
  * Component for testing the Molecules Explorer view
@@ -16,7 +17,7 @@ export const MoleculesExplorer: React.FC = () => {
 
   return (
     <>
-      <h1 className="title is-1">Molecules Explorer</h1>
+      <h1 className="title is-1">Basis and ECP</h1>
       <SearchUIContainer
         resultLabel="molecule"
         columns={columns as Column[]}
@@ -33,12 +34,11 @@ export const MoleculesExplorer: React.FC = () => {
         sortFields={['IE']}
       >
         <SearchUISearchBar
-          placeholder="Search by elements, formula, or mp-id"
+          placeholder="Search by elements or formula"
           periodicTableMode={PeriodicTableMode.TOGGLE}
           allowedInputTypesMap={{
             elements: { field: 'elements' },
             formula: { field: 'formula' },
-            mpid: { field: 'task_ids' },
             smiles: { field: 'smiles' }
           }}
         />
