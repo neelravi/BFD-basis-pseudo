@@ -81,7 +81,7 @@
     "@parcel/transformer-sass": "^2.5.0",
     "@rollup/plugin-image": "^2.0.6",
     "@storybook/addon-actions": "^6.5.3",
-    "@storybook/addon-essentials": "^6.5.3",
+    "@storybook/addon-essentials": "^7.0.2",
     "@storybook/addon-interactions": "^6.5.3",
     "@storybook/addon-knobs": "^6.4.0",
     "@storybook/addon-links": "^6.5.3",
