@@ -21,7 +21,8 @@ export const MoleculesExplorer: React.FC = () => {
       <SearchUIContainer
         resultLabel="molecule"
         columns={columns as Column[]}
-        filterGroups={filterGroups as FilterGroup[]}
+        // filterGroups={filterGroups as FilterGroup[]}
+        filterGroups={[]}
         apiEndpoint={
           process.env.REACT_APP_BASE_URL ? process.env.REACT_APP_BASE_URL + '/molecules/' : ''
         }
@@ -31,7 +32,7 @@ export const MoleculesExplorer: React.FC = () => {
             : undefined
         }
         apiKey={process.env.REACT_APP_API_KEY ? process.env.REACT_APP_API_KEY : undefined}
-        sortFields={['IE']}
+        sortFields={['elements']}
       >
         <SearchUISearchBar
           placeholder="Search by elements or formula"

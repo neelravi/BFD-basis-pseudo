@@ -23,6 +23,7 @@ import {
 } from './utils';
 import { Tooltip } from '../../data-display/Tooltip';
 import { InputHelpItem } from './InputHelp/InputHelp';
+import periodicTableImage from '/assets/images/periodictable.png';
 
 /**
  * Search types supported by this field
@@ -502,11 +503,12 @@ export const MaterialsInput: React.FC<MaterialsInputProps> = ({
           data-tip
           data-for={tooltipId}
         >
-          <i
+          {/* <i
             className={classNames('icon-fontastic-periodic-table-squares', {
               'is-active': showPeriodicTable
             })}
-          />
+          /> */}
+          <img src={periodicTableImage} width={60} />
           <Tooltip id={tooltipId} place="bottom">
             {showPeriodicTable ? 'Hide Periodic Table' : 'Show Periodic Table'}
           </Tooltip>
