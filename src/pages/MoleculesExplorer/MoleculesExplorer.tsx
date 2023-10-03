@@ -39,8 +39,7 @@ export const MoleculesExplorer: React.FC = () => {
           periodicTableMode={PeriodicTableMode.TOGGLE}
           allowedInputTypesMap={{
             elements: { field: 'elements' },
-            formula: { field: 'formula' },
-            smiles: { field: 'smiles' }
+            formula: { field: 'formula' }
           }}
         />
         <SearchUIGrid />

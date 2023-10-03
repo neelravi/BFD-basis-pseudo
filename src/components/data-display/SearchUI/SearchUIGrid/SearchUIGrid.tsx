@@ -10,11 +10,17 @@ import { SearchUIDataView } from '../SearchUIDataView';
  */
 export const SearchUIGrid: React.FC = () => {
   return (
-    <div className="mpc-search-ui-content columns">
-      <div className="mpc-search-ui-left column is-narrow is-12-mobile">
-        <SearchUIFilters />
-      </div>
-      <div className="mpc-search-ui-right column">
+    // <div className="mpc-search-ui-content columns">
+    //   <div className="mpc-search-ui-left column is-narrow is-12-mobile">
+    //     <SearchUIFilters />
+    //   </div>
+    //   <div className="mpc-search-ui-right column">
+    //     <SearchUIDataHeader />
+    //     <SearchUIDataView />
+    //   </div>
+    // </div>
+    <div className="mpc-search-ui-content">
+      <div className="mpc-search-ui-center column">
         <SearchUIDataHeader />
         <SearchUIDataView />
       </div>

@@ -114,7 +114,7 @@ export const SearchUIDataHeader: React.FC = () => {
     } else {
       return (
         <p data-testid="data-table-title" className="title is-5 has-text-weight-normal">
-          Loading {pluralize(state.resultLabel)}...
+          Loading ECP and Basis data for {pluralize(state.resultLabel)}...
         </p>
       );
     }

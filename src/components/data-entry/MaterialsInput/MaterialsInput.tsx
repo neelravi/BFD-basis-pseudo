@@ -503,11 +503,6 @@ export const MaterialsInput: React.FC<MaterialsInputProps> = ({
           data-tip
           data-for={tooltipId}
         >
-          {/* <i
-            className={classNames('icon-fontastic-periodic-table-squares', {
-              'is-active': showPeriodicTable
-            })}
-          /> */}
           <img src={periodicTableImage} width={60} />
           <Tooltip id={tooltipId} place="bottom">
             {showPeriodicTable ? 'Hide Periodic Table' : 'Show Periodic Table'}
